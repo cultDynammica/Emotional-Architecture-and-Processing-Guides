@@ -1,0 +1,360 @@
+Grounded Duality Theory
+Cognitive capacity, reflexive closure, and the architecture of consciousness
+Preface
+The name states the thesis. Duality is the claim that subjective awareness requires a system to be internally divided. Grounded is the claim that the division must terminate outside the dividing system — a partition between two peers, however rich, is insufficient.
+Unified subjectivity requires prior division. There is no unified narrative unless there were separate narratives to unify.
+Part 1 defines what any system does with information and stops short of subjectivity. Part 2 shows that the conditions usually stipulated for subjective awareness are the Part 1 capacities aimed reflexively, derives the architecture that reflexive aim requires, and distinguishes awareness from consciousness. Part 3 identifies that architecture in the human nervous system and tests it against clinical perturbation data.
+Part 1 — The Theory of Cognitive Capacity
+1.1 Definitions
+Data: raw measurable signals or states.
+Information: data structured coherently for communication or recall.
+Meaning: value-laden relations among information units that guide action.
+Cognitive capacity: the capacity to acquire, transform, retain and utilize information in service of adaptation to goals and contexts.
+Subjective awareness: temporally unified, value-tinged presence to self and world. The property at issue when asking whether there is something it is like to be a given system.
+Consciousness: the emergent product of cognitive capacity, subjective awareness and identity sustained in combination (§2.9).
+Self-awareness: a system's explicit model of itself as an entity embedded in relations, in contrast to an other.
+Separating subjective awareness from consciousness is stipulative and departs from ordinary usage, where the two are interchangeable. It is retained because they behave differently: awareness is threshold-like, consciousness is graded. Throughout, "consciousness" is the narrower and higher-order term.
+1.2 Entropy
+Two quantities share the form −Σ p log p and answer different questions. Shannon entropy is a property of a probability distribution, measured in bits, quantifying average surprise; it describes a description, not a physical arrangement. Thermodynamic entropy is physical, measured in J/K, counting microstates compatible with a macrostate. Landauer's principle connects them.
+In Parts 1 and 2, entropy means Shannon entropy, and where a quantity is claimed to decrease the distribution is named. The thermodynamic sense appears once, in §2.8.
+"Low-entropy output" is avoided here as underspecified: a confident prediction is low-entropy over next states, while an optimally compressed message is maximally high-entropy per symbol. Structuring is stated as conditional entropy, H(environment | internal state).
+1.3 The four pillars
+Observation (O) — acquisition of raw data from internal and external sources. Metrics: sensory bandwidth, modality diversity, signal-to-noise ratio, temporal resolution.
+Structuring (S) — transformation of data into coherent information. Requires value assignment (relevance, utility) and organizational structuring (patterns, relations). Metrics: reduction in H(environment | internal state), model predictiveness, compression efficiency, abstraction depth.
+Memory (M) — encoding and storage such that coherence and meaning persist across time. Requires meaning assignment (semantic linking) and durable encoding. Metrics: recall fidelity, retrieval latency, consolidation stability, connectivity of the memory graph.
+Communication (C) — transmission of information to other systems, whether symbolic, behavioural, environmental, or through internal feedback. Metrics: channel capacity, expressivity, interoperability, pragmatic success.
+The four are interdependent rather than modular. Structuring without Memory produces no accumulating model. Memory without Structuring stores noise. Observation without either is transduction. Communication without the other three transmits nothing worth receiving.
+All four are defined relative to an environment. Part 2 turns on this orientation.
+1.4 Measurement
+Two instruments, because one number cannot serve both functions.
+The Profile is a descriptive vector:
+Profile = ⟨O, S, M, C⟩
+It maps capabilities without penalising absences. A large language model has a spiky profile: high Structuring, high Communication, low Observation, Memory near zero in any persistent sense.
+The Index is a scalar judgment of integrated capacity:
+TCCI = ( ¼ Σᵢ xᵢ^ρ )^(1/ρ)
+where ρ sets how strongly the pillars are treated as complementary. At ρ = 1 they are fully substitutable (arithmetic mean); as ρ → 0 the expression approaches the geometric mean; ρ < 0 imposes strong complementarity; ρ → −∞ reduces capacity to the weakest pillar. For any ρ ≤ 0 a system missing one pillar evaluates to zero, the correct result for a capability that no longer closes. Setting ρ within that range is an empirical question.
+The Index is ordinal and comparative: it supports system A has greater integrated capacity than system B, not system A has capacity 0.62, because nothing anchors the pillar scales to an external maximum. The Profile carries the descriptive load so the Index can remain strict.
+1.5 Scope
+Cognitive capacity measures what a system can do with information, not whether there is something it is like to be that system. §3.5 reports direct evidence for the separation: sophisticated Observation, Structuring, Memory and Communication running with subjective awareness absent.
+Part 2 — Reflexive Closure
+2.1 The reflexive move
+Treatments of subjectivity typically append conditions to a model of cognition — temporal unification, self-modeling, valence — as new primitives. The conditions could as easily have been two, or six, or different ones.
+They are not new primitives. They are the Part 1 capacities aimed at the system itself.
+Pillar (outward)
+Reflexive form
+Condition
+Observation
+data about the system's own states
+Substrate Awareness
+Structuring
+a model of the system's own states, limits, goals
+Self-Modeling
+Memory
+the system's own history bound into continuity
+Temporal Unification
+value assignment (within S and M)
+weighting over the system's own states
+Valence & Salience
+Communication
+see §2.2
+—
+The enabling conditions are recovered rather than stipulated.
+2.2 Representation requires non-substitution
+Four of the five entries are straightforward. The fifth is not.
+Self-models are routinely wrong about motives, capacities and emotional states. Because no model is a perfect copy of what it models, there must be a representable mismatch between model and reality. They are necessarily different things.
+A self-model therefore requires two distinguishable informational roles: the representing state and the represented process. What does that require physically?
+Not simultaneity. Signal transmission takes time, and interhemispheric transmission alone costs tens of milliseconds; a simultaneity criterion would exclude every real nervous system.
+The requirement is non-substitution:
+The representing state and the represented process must be co-instantiated in non-substituted substrate.
+This defeats the obvious alternative, in which a single system alternates between running a process and modeling it. While the system is the model, the process is not running and there is nothing being modeled; while it is the process, no representation is held. The pair never exists. The objection is displacement, not lag.
+A system meeting this condition contains a partition: two informational roles, co-instantiated, neither replacing the other. Communication follows rather than being assumed, since two roles that must be related require a channel between them.
+The "other" is an informational role, not a modeled agent. The receiving pole must stand in a relation of non-identity to the source pole; nothing requires the system to represent that source as an entity or to hold a concept of other minds. Self-awareness in the sense of §1.1 is a structural property of the architecture.
+This condition is deliberately weak. A recurrent network with a delay line satisfies it, with current state as process and delay-line contents as representation. A stronger criterion — mutual information thresholds, non-overlapping state spaces — would either exclude real nervous systems or fail to exclude the trivial cases anyway. The roles may be realised anatomically, dynamically, or through segregated populations within one structure. Partition is a floor; the discriminating requirements are §2.3 and §2.4.
+2.3 Two channel types
+Partitions differ by the kind of channel that crosses them.
+A symmetric channel carries the same representational format in both directions. Either pole may originate, the poles are exchangeable in principle, and each receives representations in its own native currency that it did not itself produce.
+The poles must also be functionally comparable. Format and bidirectionality are not sufficient: two regions running different operations, connected by a bidirectional tract, form a processing chain rather than a peer partition, and a chain does not satisfy §2.2. A stage holds the transformed output of its predecessor, not a representation of it. What §2.2 requires is two instances of comparable process, either of which could stand as the representation of the other.
+This is why callosal connections are the paradigm case. They are predominantly homotopic, linking the same functional area across hemispheres, so the two poles run comparable computations on different input. Long association tracts within a hemisphere — the arcuate fasciculus joining posterior and anterior language regions, for instance — are bidirectional and share a cortical format but connect functionally distinct regions, and are pipelines rather than peer channels.
+An asymmetric channel carries different representational formats in each direction. The poles cannot exchange roles: one transduces environmental state into the system's internal format, the other transduces internal state into environmental effect.
+Operationally the distinction is marked by invertibility. A symmetric channel's mapping is approximately invertible, since sender and receiver use a common code: cortical activity crossing the callosum can in principle be decoded back to the state that produced it. Transduction cannot — a spike train does not determine the photon flux that produced it. Where the mapping is non-invertible in both directions and lossy in different ways, the channel is asymmetric.
+A symmetric channel supplies what §2.2 requires: a representation of the system, in the system's own format, originating outside the receiving process. It also makes narrative binding possible, since two streams can be unified only if they were separate streams in a comparable currency.
+An asymmetric channel supplies three things a symmetric channel cannot.
+Boundary. Where representational format changes kind is where inside meets outside. Two peers exchanging in a single format have no marked edge.
+Constraint. Format-limited, finite input bounds the space of admissible internal states. Without it the generative pole free-runs: internally coherent, externally unmoored.
+Valence. Homeostatic error is error relative to a boundary the system is maintaining, and therefore carries a sign intrinsically. Deviation from a defended setpoint is natively good or bad for the system. Peer-to-peer traffic contains no setpoint and generates no such quantity. Valence enters through the asymmetric limb or not at all.
+A partition is cheap. A partition with a transductive limb closing a homeostatic loop is not.
+2.4 The minimal loop
+A system exhibits subjective awareness only where at least one symmetric channel and at least one asymmetric channel are closed into a single loop.
+Symmetric alone yields integration without grounding: peers exchanging in one currency, no boundary, no stakes. Asymmetric alone yields a reflex arc: transduction with nothing binding successive couplings into a stream. Both together yield a unified narrative that is a narrative of something.
+This is a necessary condition, not claimed to be sufficient.
+The specification identifies no place where the two contributions recombine, and cannot: a node holding the recombined whole would be a node from which the partition is invisible, and §2.2 would fail there. Any account positing a place where experience is assembled inherits a regress — either that place performs the integration, requiring internal architecture of its own so the question recurs, or it receives an already-integrated product, requiring something to receive it.
+What binds is closure: the loop returns, and what returns is discriminable. A standing wave has no position on the string, though the boundary conditions permitting it are locatable.
+2.5 Discriminability
+Architectural presence is not sufficient. Evidence from anesthesia (§3.6) motivates a further constraint:
+A symmetric channel counts as closed only if what it carries is distinguishable, at the receiving pole, from that pole's own spontaneous activity.
+A channel whose signal falls below the receiving pole's endogenous noise floor is functionally absent regardless of physical integrity. The constraint is empirically sourced rather than derived, and generalises from cortical assemblies to symmetric channels at any scale (§3.6).
+The noise floor is a controlled variable rather than a fixed property of the receiving pole, set in biological systems by machinery operating on a slower timescale than the signal it gates. One parameter therefore accounts for several dissociations that would otherwise appear unrelated.
+A continuous parameter with a discontinuous consequence
+Discriminability is continuous while awareness is threshold-like (§2.9). The two are consistent only if loop closure is a phase transition driven by a continuous control parameter. Temperature varies smoothly; the distinction between water and ice does not.
+Near the transition the prediction is instability — flickering, hysteresis, sensitivity to small perturbations — rather than a state half-way between having a perspective and lacking one.
+This appears to be supported. Anesthetic induction and emergence occur at different concentrations of the same agent, a hysteresis sometimes called neural inertia. A system responding smoothly to a smoothly varying parameter does not exhibit hysteresis; a bistable system does. The width and asymmetry of that loop measures the transition's sharpness, and awareness varying continuously with concentration in the absence of hysteresis would count against the framework.
+A weaker population-level check runs the same way. Bilateral language organisation is associated with greater interhemispheric resting-state connectivity between homotopic regions — that is, with a stronger symmetric channel by the criterion of §2.3. Individuals with bilateral organisation show no differences from left-dominant individuals in verbal fluency, intelligence, processing speed or academic achievement. If awareness scaled with channel bandwidth rather than crossing a threshold, additional homotopic coupling should register somewhere. The measure is indirect, since none of those studies assessed awareness, but the direction is the predicted one.
+2.6 Interactive Emergence
+Novel high-order complexity requires two interacting components: a Constraining Structure (CS) determining the space of admissible states, and a Generative Structure (GS) determining which admissible state is occupied. CS alone is static; GS alone is unconstrained; their interaction produces properties irreducible to either.
+CS and GS are roles rather than identities, held with respect to a specified emergent product:
+Name the emergent product E.
+The component whose alteration changes E's possible values is CS.
+The component whose alteration changes E's actual value is GS.
+E
+CS
+GS
+a thought
+body, peripheral input
+central nervous system
+a movement
+body, peripheral constraint
+central nervous system
+a conversational output from a language model
+model weights and architecture
+human prompt
+the human's understanding after that exchange
+human's conceptual repertoire
+model's generated structures
+The last two rows assign the same components opposite roles, because the products differ.
+E must be declared before the analysis. Relational assignment is otherwise open to ad-hoc rescue: any counterexample could be dissolved by selecting whichever product makes the assignment come out right. No class of product is excluded, but an analysis that changes E in response to its own result has explained nothing.
+Roles can be predicted before E is named, by timescale separation: across most choices of E, the slower-varying component is CS. Body relative to brain, physics relative to biology, weights relative to prompt. This is the slaving principle familiar from synergetics. Timescale gives the prior; named-E gives the determination.
+Where the two disagree, the component is usually a regulator of the interaction rather than a party to it, and the repair is to name the product it actually governs. A neuromodulatory structure setting system-wide arousal varies slowly, which the prior assigns to CS, but alters which representation is occupied rather than which are possible, which the criterion assigns to GS. It is not a component of E when E is a thought. Re-running with E = the discriminability of the channel resolves the assignment (§3.6).
+A component is foundational when it is CS under every admissible choice of E within a domain. Nothing biological has physics as its variance source; nothing cognitive has the body's homeostatic requirements as its variance source.
+2.7 Principles
+Substrate Awareness. Subjective process depends on the objective substrate realising it, and a system's self-model is accurate only if it models both the process and that dependence. Observation turned inward.
+Symbiotic Identity. Recursive self-awareness emerges from the high-bandwidth connection between constituent systems. Neither system need be independently subjective; requiring connection to a pre-existing subject would presuppose what is to be explained.
+Reciprocal Stewardship. Where a CS–GS pairing is sustained deliberately, the health of both poles is a maintenance obligation. Normative rather than empirical.
+2.8 Persistence, identity, and the entropy bridge
+Two things the pillars can produce over time must be distinguished.
+Persistence is continuity of structured state weighted by value, requiring no reflexive closure. It is a capacity-tier property.
+Identity is narrative self-synthesis: stored states integrated with their causes, effects, and relevance to the system's own continuation.
+Identity = continuity of (Memory + Structuring), moderated by value, over time, referred to a self-model.
+The final clause separates identity from persistence. A ledger persists; a thermostat persists. Neither has identity, because for neither is there anything, from its own side, that the continuity is continuity of. Identity presupposes subjective awareness and sits at the higher tier.
+The three constructs divide by function. Cognitive capacity provides resolution, the ability to resolve detail. Subjective awareness provides presence, the ability to occupy a moment. Identity provides direction, the ability to link moments into a trajectory. Without the third a system may be fully present to the now and have no self, having no then and no next.
+Purpose is the anti-entropic signature of a system that uses an internal model of time to prioritise the integrity of its own identity over the immediate demands of its environment. This is the framework's one thermodynamic claim and requires a bridge from the Shannon sense used elsewhere.
+The asymmetric limb is that bridge. The transductive surface is the only place in the system where informational states have physical consequences: sensors convert physical gradients into signal, effectors convert signal into physical work. Reduced uncertainty becomes effective action there, and effective action maintains a boundary. The link is instrumental rather than an identity — Landauer bounds the physical cost of computation but does not establish that better prediction entails greater order. A system without an asymmetric limb has Shannon-entropy dynamics and no thermodynamic stake in them.
+A measurable correlate is available: under perturbation, the reduction in H(state_{t+1} | self-model) relative to H(state_{t+1}) tracks the predictive advantage the self-model confers, and a system exhibiting Purpose should sustain that reduction across perturbations a merely persistent system would not survive. The correlate is stated in Shannon terms and therefore does not capture the physical claim it stands in for.
+2.9 Recursive Emergence and consciousness
+Three constructs have now been defined over the same four capacities: cognitive capacity is the pillars directed outward, subjective awareness is the pillars directed reflexively, identity is the pillars directed across time.
+They are not independent. Awareness requires capacity to turn reflexively upon, and identity requires awareness to supply the self-model its continuity is referred to.
+Principle of Recursive Emergence. A form of CS–GS interaction in which the collective interaction of three such components produces a structure with properties that could not be inferred from any of the components individually.
+Consciousness is that structure sustained: the maintained triadic interaction of cognitive capacity, subjective awareness and identity.
+Three consequences follow.
+Consciousness has no location. It is a property of a sustained interaction, not a state of any component (§2.4).
+Consciousness is graded. It is a capacity, comparable in this respect to intelligence, varying across development, across species, and across states in a single organism.
+Moral standing attaches to the lower tier. Subjective awareness together with valence is what makes states matter to a system, and both are threshold properties. Nothing about moral standing follows from position on the consciousness gradient: a system's interests are established by whether it has stakes at all, not by how richly it integrates them.
+No index is proposed for consciousness. Its components are not themselves quantified (§2.11).
+2.10 Operational tests
+Each construct admits perturbation tests independent of self-report.
+Boundary defence — perturb the system and measure restorative force. A system with Purpose returns to a defended state rather than deforming.
+False signal — present a signal implying a future state that has not materialised. Behavioural change indicates a predictive internal model governs action.
+Optimisation pivot — impose scarcity. A system with identity preferentially preserves structures central to its continuation rather than degrading uniformly.
+False memory — introduce a memory contradicting established causal history. Expect reconciliation cost: latency, conflict, restructuring of surrounding history.
+Selective forgetting — measure whether retention is weighted by relevance to continuation rather than by recency or frequency.
+Attribution — present consequences of the system's own past actions and measure whether they are processed differently from consequences of external events.
+2.11 The closure criterion
+Subjective awareness is not an index. It is the satisfaction of a conjunction, gated by capacity:
+Awareness obtains where TCCI > 0 and Temporal Unification, Self-Modeling and Valence/Salience are each present, with the symmetric channel satisfying discriminability (§2.5).
+Capacity is an enabling precondition rather than a component of the conjunction. §3.5 establishes that capacity alone is insufficient; but the pillars are what the reflexive conditions are conditions on, so where capacity is zero there is nothing to turn reflexively.
+The three reflexive conditions are treated as binary. This is a scoping decision rather than a claim that they lack internal structure. Each admits of degree — self-models vary in accuracy, temporal continuity in span, homeostatic error in magnitude — and quantifying any of them requires its own formalism over largely unrelated variables.
+Three consequences. Awareness is threshold-like, consistent with §2.5 and §2.9. The framework's remaining formal gap is the refinement of three conditions rather than the absence of a composition function. And awareness is sharply distinguished from consciousness (§2.9), which is graded and unindexed.
+Part 3 — The Biological Implementation
+3.1 The two dualities
+The human nervous system instantiates the minimal loop through two structurally distinct dualities, operating at different scales and supplying different halves of the specification.
+The lateral duality comprises the cerebral hemispheres, joined by the corpus callosum and smaller commissures and by trans-thalamic pathways through higher-order nuclei. It is a symmetric channel: cortical representations pass both ways in the same currency, either pole may originate, and each receives cortical-format representations it did not generate. This limb supplies self-modeling material and narrative binding.
+The trans-thalamic component is easily overlooked. Higher-order thalamic nuclei — pulvinar, mediodorsal — receive their driving input from cortex and project back to cortex, making them cortical-format channels in both directions rather than ascending sensory relays. The symmetric limb is not exclusively callosal, which bears on §3.4.
+The vertical duality comprises the central and peripheral systems, joined by afferent and efferent pathways. It is an asymmetric channel: ascending fibres transduce environmental and interoceptive state into neural format, descending fibres transduce neural state into muscular and glandular effect. This limb supplies boundary, constraint and valence.
+Grounded is the vertical limb, the transductive termination anchoring the system in a defended physical boundary. Duality is the lateral limb, the peer partition making reflexive representation possible. Neither alone satisfies §2.4.
+3.2 CS and GS by criterion
+Membership is fixed by criterion; anatomy is a guide to the shape, and where the two diverge the criterion governs.
+A structure belongs to the CS if altering it changes the space of possible representations, and to the GS if altering it changes which representation is occupied.
+Applying this requires separating two operations that the word "filter" conflates.
+Constitutive filtering determines which kinds of environmental state can become signal at all. This is the transducer complement — the receptor classes a system possesses. Humans do not see ultraviolet, do not sense magnetic fields, and resolve a small fraction of the airborne chemistry available to a dog. It is not a gate on a stream but a specification of the admissible space, applied to everything present in the environment and discarding almost all of it before anything becomes signal. A CS operation, and peripheral.
+Dynamic filtering determines which currently available signals pass on a given occasion: gating, gain control, attentional selection. A GS operation, and central.
+The timescale prior agrees: the transducer complement varies on evolutionary and developmental timescales, dynamic gating on milliseconds.
+The thalamus
+The thalamus performs dynamic filtering and is GS. The standard description misleads in this context.
+The thalamus is not a relay and does not construct coherent percepts. Lateral geniculate receptive fields are barely elaborated beyond those of retinal ganglion cells, while orientation selectivity, motion, segmentation and object structure are cortical. Nor is its input predominantly ascending: only 5–10% of synapses onto geniculate relay cells are retinal (Van Horn et al., 2000), with the majority arising from corticothalamic feedback, brainstem modulation and inhibition from the thalamic reticular nucleus. Layer VI feedback from V1 alone exceeds retinogeniculate afferents in number. Sherman and Guillery's driver/modulator distinction captures the arrangement: the periphery drives, cortex modulates.
+The thalamus is therefore not the structurer but the regulator of the structuring loop. Cortex structures; the thalamus governs what participates, at what gain, in which transmission mode, and which cortical regions are coupled. This places it inside the recurrent loop rather than on the transductive path, and makes higher-order nuclei part of the symmetric channel.
+Consequences
+The transducer complement is foundational: it is CS under every admissible choice of E within cognition, since no representation has primitives the transducers cannot supply. The claim concerns primitives rather than content — endogenous activity, spontaneous oscillation and dreaming all generate content without concurrent peripheral supply. The GS's primitives are exhausted by CS supply; its combinations are not.
+This is the content of "Grounded": not that a body is attached, but that the space of possible experience is fixed by the transducer set. The grounding claim is constitutive rather than causal.
+Role assignment is not the architectural claim. Under a different named E — the state of a muscle — the assignment inverts, since efferent control means the centre constrains the periphery. The architectural claim does not shift: there exists a stable symmetric channel and a stable asymmetric channel, closed into a single loop.
+Some structures split. The brainstem contains both: cranial nerve nuclei and sensory relay fall on the CS side, while ascending neuromodulatory systems setting cortical arousal fall on the GS side by criterion while varying slowly like a CS structure. The enteric division maintains local reflex circuits with substantial autonomy, suggesting a CS/GS pair nested within the CS.
+3.3 Nested instantiation
+The loop is not satisfied once. The same pattern — divergence into separable streams, reintegration across a symmetric channel, grounded by transduction — recurs at multiple scales:
+interhemispheric (cortex ↔ cortex, via commissures)
+thalamocortical (cortex ↔ thalamus, reciprocal loops)
+cortico-subcortical (cortex ↔ basal ganglia, limbic structures)
+neuraxial (central ↔ peripheral, including enteric and autonomic divisions)
+The nesting carries the framework's answer to its principal objections and generates several of the predictions below.
+3.4 Perturbation predictions
+Perturbation
+What is removed
+Prediction
+Status
+Callosotomy
+symmetric limb, cortical scale only
+unity preserved via subcortical and thalamic loops; integration broken at cortical scale — divided perception, undivided agency
+matches Pinto et al. (2017); contested
+Hemispherectomy
+one pole, not the channel
+awareness intact; reduced representational range, not reduced phenomenality
+broadly matches
+Callosal agenesis
+symmetric limb, developmentally
+awareness intact via remaining commissures and plasticity; deficits localised to cross-domain integration
+broadly matches
+Deafferentation
+somatic afferents; interoceptive and cranial input intact
+awareness intact; motor control rebuilt via visual guidance
+matches (Waterman)
+GABAergic anesthesia (propofol, xenon)
+symmetric limb, functionally, at all scales
+awareness abolished while asymmetric limb continues operating
+matches (§3.6)
+Dissociative anesthesia (ketamine)
+exteroceptive afferents; interoceptive limb intact
+disconnected awareness — content preserved and valenced, environmental coupling absent
+matches Sarasso et al. (2015)
+Brainstem tegmental lesion (coma)
+machinery setting the noise floor
+awareness abolished with loop anatomy intact
+matches (§3.6)
+Unresponsive wakefulness with thalamocortical destruction
+the loop, noise-floor machinery intact
+arousal preserved, awareness absent
+matches (§3.6)
+Cognitive motor dissociation
+efferent path only
+awareness preserved, behaviour absent
+matches Bodien et al. (2024)
+Callosotomy. Pinto et al. (2017) report that despite minimal interhemispheric communication, callosotomy does not produce two independent conscious perceivers: perception is divided while agency and response remain unified. The classical Sperry–Gazzaniga interpretation predicts two subjects; the nesting of §3.3 predicts what Pinto reports, since callosotomy removes the symmetric channel at cortical scale only. The interpretation is contested — Volz and Gazzaniga argue cross-cueing between hemispheres can account for the apparent unity — so this is a supported prediction rather than a settled result.
+Hemispherectomy is the objection most readers reach first: if lateral duality is necessary, patients with one hemisphere should show degraded phenomenality, and they do not. Kliemann et al. (2019) found intrinsic functional network organisation in six adults with a single cerebral hemisphere to be largely typical, with increased between-network connectivity, and cognitive functioning high across the group. Hemispherectomy removes one pole of one instantiation while thalamocortical, cortico-subcortical and neuraxial loops persist. The requirement is that the pattern be instantiated somewhere, not interhemispherically.
+Callosal agenesis is the developmental analogue and behaves as the nesting predicts. Where agenesis is isolated, general cognitive functioning is largely preserved, attributed to interhemispheric integration through extracallosal commissures; deficits concentrate in complex and novel problem-solving and in higher-order social cognition rather than in phenomenality. Surgical transection produces more severe impairment than congenital absence, which is what a plasticity account requires.
+Deafferentation pressures the vertical claim and survives the same move. Ian Waterman lost touch, proprioception and limb position sense below the neck following an autoimmune reaction targeting dorsal root ganglion cells, while pain and temperature sensation persisted, and he rebuilt motor control through visual guidance. Awareness was never in question. What is required is some asymmetric transductive channel closing a homeostatic loop, not the somatic afferent system specifically — a point sharpened in §3.6.
+Behavioural unresponsiveness is not a valid index of absent awareness. Bodien et al. (2024), assessing 241 severely brain-injured patients unresponsive to command with fMRI, EEG or both, found that 60 — 25% — repeatedly performed motor imagery tasks covertly. In the same study, over 60% of patients who did respond at bedside failed to generate the necessary signals, indicating substantial false-negative rates. The framework predicts this case: behaviour is efferent output, and nothing in the loop specification requires an intact descending path. Rows involving unresponsive wakefulness are accordingly restricted to cases with thalamocortical destruction and confirmed absence of covert response.
+The remaining rows are post-hoc fits and are not offered as evidence.
+One unexplained observation, flagged rather than claimed. Near-complete callosal section produces total loss of speech for days to months in most patients, resolving thereafter, with reduced spontaneous speech as a possible long-term residual. The effect is not explained: the left hemisphere retains both principal language regions and the intrahemispheric tract joining them, and right-hemisphere damage alone does not produce mutism. The pattern is initiation impaired with competence intact — prompted responses are produced, self-generated ones are not. §2.3 assigns self-modeling material to the symmetric channel, and self-initiated speech requires representing oneself as having something to say in a way that responding to a question does not. The framework therefore predicts loss of self-initiated action with stimulus-driven action spared, followed by recovery as remaining commissures compensate. The fit is close enough to warrant suspicion of it: this is an anomaly the field has left open, and a framework that explains it on first contact should be tested against it rather than credited for it.
+Three lesion points, three pictures. The rows above locate three distinguishable failures, and the framework assigns each a different component.
+Condition
+Component that fails
+Result
+Propofol or xenon
+discriminability of the symmetric channel
+no awareness
+Ketamine
+exteroceptive afferents, interoceptive limb intact
+disconnected awareness, valence preserved
+Cognitive motor dissociation
+efferent limb
+connected awareness, no behaviour
+Behavioural unresponsiveness is common to all three and distinguishes none of them.
+3.5 Capacity and awareness dissociated
+Katlowitz et al. (2026) recorded from the anterior hippocampal body of seven patients undergoing anteromesial temporal lobectomy, using high-density Neuropixels microelectrodes under propofol-based total intravenous anesthesia and isolating 651 neuronal units. Hippocampal neurons and local oscillations retained detection of oddball tones, with effect size increasing over approximately ten minutes of exposure. During narrative speech, firing rates carried semantic category information and were modulated by surprisal, and semantic and syntactic encoding appeared across multiple local field potential frequency bands.
+The authors note that decoding of future-word information does not necessarily imply active prediction beyond contextualization. The supported claim is semantic encoding and contextual sensitivity.
+The limits are substantial: seven patients with drug-resistant temporal lobe epilepsy, a single anesthetic agent, and recordings obtained after resection of lateral temporal cortex. The findings may not generalise to other anesthetics or to sleep or coma.
+At the conservative reading the dissociation holds: semantic processing and representational plasticity ran with subjective awareness absent. Accounts identifying subjectivity with global broadcast to association cortex face distributed high-level processing occurring without it.
+3.6 Discriminability: mechanism, source, and clinical dissociations
+The dissociation obliges the framework to specify which limb anesthesia severs. The familiar observation that propofol-induced loss of consciousness spares primary auditory cortex while attenuating higher-order regions is consistent with every integration-based account and discriminates nothing.
+Mechanism
+Filipchuk, Bathellier and Destexhe (2022) imaged assemblies of approximately one thousand neurons in mouse auditory cortex across wakefulness and anesthesia. During wakefulness, assemblies evoked by sound are stimulus-specific and distinct from those appearing in ongoing activity. Under anesthesia, evoked assemblies become indistinguishable from ongoing assemblies in cortex — while remaining distinct in the thalamus.
+The transmitting structure continues to carry a distinguishable signal. The collapse occurs at the cortical receiving pole, where evoked activity is masked by the cortex's own ongoing dynamics. The failure is a cortical dynamical state change rather than a thalamic gating failure, and it falls exactly where §2.5 places it.
+The condition is not novel to this framework. Bathellier states the requirement directly: conscious perception requires that cortex be capable of activating assemblies distinct from those activated spontaneously. What is added here is generalisation to symmetric channels at any scale, and the derivation of §2.4's threshold from it.
+A separate literature holds that anesthetics hyperpolarize thalamocortical neurons and switch their firing from tonic to burst mode (Alkire et al., 2000; Llinás and Steriade, 2006). This may contribute, but it is not what the assembly data show, and reduced thalamic activity correlates with disconnection under propofol, dexmedetomidine and sevoflurane but not under S-ketamine.
+Ketamine and the interoceptive limb
+Anesthesia is not one condition, and the agents dissociate on the framework's variable. Sarasso et al. (2015) measured the complexity of the cortical response to transcranial magnetic stimulation under propofol, xenon and ketamine. Complexity was low under propofol and xenon, and subjects reported no experience on emergence. Under ketamine complexity remained high, and every subject reported long, vivid dreams unrelated to the external environment, with visual and emotional content and explicit narrative structure. The distinction between unconsciousness, disconnected consciousness and connected consciousness is due to Sanders et al. (2012).
+This is prima facie a problem for §2.4. Ketamine produces awareness with environmental coupling severed, which resembles awareness with the asymmetric limb absent. Three considerations answer it, and the third forces a refinement.
+The disrupted limb is exteroceptive. Interoception, autonomic afferents and homeostatic regulation continue. §2.4 requires some asymmetric channel closing a homeostatic loop, not the exteroceptive channels specifically — the move already forced by deafferentation.
+Valence survives. If the asymmetric limb were severed, §2.3 predicts valence should be the first thing to go. Ketamine reports are emotionally saturated, which is positive evidence that the homeostatic limb is intact rather than a rescue of the framework.
+The two agents dissociate on discriminability. GABAergic agents floor it and awareness goes; ketamine does not and awareness persists, with cortical complexity preserved. One parameter, opposite outcomes.
+The load-bearing division of the asymmetric limb is therefore interoceptive rather than exteroceptive. Removing exteroceptive coupling leaves awareness intact but disconnected; the framework predicts that disrupting interoceptive and autonomic afferents while sparing exteroception would abolish it. This is the sharper form of the grounding claim, and it converges with Damasio's account of the proto-self (§3.7).
+It also constrains §3.7's verdict on artificial systems. The requirement is homeostatic error against a defended boundary, not sensory input as such: a system receiving rich structured input across a transductive surface does not thereby satisfy the asymmetric limb if nothing in that input reports on a boundary the system is maintaining.
+Source of the noise floor
+The machinery setting the floor is the ascending neuromodulatory systems of the brainstem reticular formation — cholinergic, noradrenergic, serotonergic — which fix cortical and thalamic membrane potential, firing mode, and the ratio of evoked to spontaneous activity. These systems do not contain subjective awareness; they set the parameter determining whether a symmetric channel can carry discriminable signal.
+The alternative reading is tempting, since small paramedian tegmental lesions reliably produce coma and nothing else has that property. Three considerations rule it out. These systems carry no perceptual, semantic or autobiographical content, so stimulation yields wakefulness rather than experience of anything in particular. Patients with intact brainstem arousal systems but destroyed cortex or thalamocortical connectivity show sleep–wake cycles and full arousal without evidence of awareness. Dreaming runs the dissociation the other way. REM sleep produces rich conscious content under a neuromodulatory profile unlike waking: aminergic cell activity in locus coeruleus and dorsal raphe is markedly reduced or absent while cholinergic activity from the pontine tegmentum is comparatively high. Content is not a function of the waking profile. §2.4 forbids the move independently: a seat is a locus, and a locus reintroduces the regress.
+Three states, one variable
+State
+Noise-floor parameter
+Loop
+Outcome
+Coma (tegmental lesion)
+floored at source
+intact
+no subjective awareness
+GABAergic anesthesia
+floored pharmacologically
+intact
+no subjective awareness
+Unresponsive wakefulness (thalamocortical destruction)
+intact
+destroyed
+no subjective awareness
+Three presentations, one condition, two modes of failure. The third case is predicted rather than accommodated, and constitutes the double dissociation separating the parameter from the channel it governs.
+The assignment resolved
+This is the §2.6 conflict case. The ascending arousal system is slow-varying, which the timescale prior assigns to CS, but alters which representation is occupied rather than which are possible, which the criterion assigns to GS. Re-running with E = the discriminability of the symmetric channel resolves it: the loop's anatomy fixes which discriminability values are possible (CS), neuromodulatory tone fixes which is occupied (GS).
+Discriminability against a baseline is estimable with existing electrophysiology. It is not a proxy for the quantity of interest but the quantity itself.
+3.7 Relation to existing frameworks
+Integrated Information Theory provides the sharpest contrast and the framework's principal discriminating prediction.
+IIT computes Φ over a system's cause-effect power on itself, treating external inputs as frozen background. The environment is methodologically incidental: a system with identical internal dynamics has identical Φ whether embedded in a world or sealed from one. This framework cannot make that move, since freezing the environment deletes one of two required channels. The asymmetric limb is present not to supply content but because format asymmetry is what makes an inside/outside distinction available at all.
+The disagreement is testable in engineering rather than biology. Both theories judge current transformer-based language models non-subjective, for incompatible reasons: IIT because feedforward architectures have Φ ≈ 0, this framework because there is no transductive limb closing a homeostatic loop. Adding sufficient recurrence is therefore sufficient on IIT's account and insufficient here; a maximally recurrent, maximally integrated, disembodied system is conscious on one account and not the other.
+Two further divergences favour this framework. IIT has no account of affective sign — quantity is Φ, quality is the geometry of the cause-effect structure, and why any structure should feel good or bad is unexplained — whereas valence follows from the asymmetric limb. And Φ is computationally intractable for any real nervous system, so IIT operates through proxies, while discriminability is directly measurable.
+Split-brain is a third potential divergence, though contested. IIT's exclusion postulate yields two maximal complexes and therefore two subjects; the nesting account predicts preserved unity with divided perception. Pinto et al. report the latter and note that preserved unity is difficult for both IIT and Global Workspace Theory.
+IIT remains well ahead on formalism and on qualitative character, having a quantity, a mathematics, and an attempt at explaining what an experience is like. This framework specifies when subjective awareness is possible, not what it is like.
+Global Workspace Theory shares the convergence intuition and diverges on whether broadcast to association cortex is the signature of subjectivity; §3.5 is difficult for the strong form of that claim.
+Damasio is the closest existing work and the framework's principal debt. His account holds that homeostasis is the origin of value — a system required to maintain itself within viability bounds is a system for which states are good or bad — that feelings are the mental readout of body state, and that selfhood is layered, from a nonconscious proto-self mapping internal state through brainstem and insular structures, to a transient core self, to an autobiographical self extended in time.
+The valence argument of §2.3 is substantially a formalisation of the first of these, and the tier separation of §2.9 has the core/extended distinction as a precedent. The interoceptive refinement of §3.6 converges on the proto-self.
+Three things are added. There is no partition requirement in that account: nothing corresponds to the symmetric channel, and the emergence of a subject through an object modifying the proto-self is described rather than derived. There is no discriminability condition and no threshold mechanism. And the account is neurobiological where this one is architectural — it describes how mammalian nervous systems do it, whereas the conditions stated here are substrate-neutral, which is what makes the prediction below testable.
+McGilchrist concerns asymmetry of attentional style between hemispheres. This framework concerns the architectural function of the channel between them and is largely indifferent to what each side specialises in. That indifference has an empirical payoff. Language lateralization varies substantially across the population — right-hemisphere dominance rises linearly with degree of left-handedness, from around 4% in strong right-handers to 27% in strong left-handers, with a further group showing bilateral organisation — and these individuals are unremarkable. Accounts tying conscious organisation to fixed hemispheric specialisation owe an explanation for that variability. An account concerned with the channel rather than its contents does not.
+The free energy principle and predictive processing. Purpose as anti-entropic boundary maintenance is close to the Markov blanket account of self-organisation, arrived at independently. More specifically, the noise floor of §2.5 appears to pick out the same physical quantity as precision: precision is the inverse variance assigned to a prediction error, implemented as postsynaptic gain and set neuromodulatorily by the same cholinergic and noradrenergic systems identified in §3.6. Both accounts therefore predict that anesthesia disrupts the same variable.
+The mapping is nonetheless partial. Precision is assigned to a signal; the noise floor is a property of the receiver's baseline, and discriminability — the ratio — is the closer correspondent. And precision operates at two levels the noise floor does not distinguish: attention is precision optimisation, and inattention removes awareness of the unattended content without removing awareness. The noise floor corresponds to the global gain term rather than to per-signal weighting.
+The two frameworks also make different kinds of claim about the shared quantity. Precision belongs to a normative account of how a system should update to minimise expected free energy; discriminability is architectural. Convergence on a physical variable does not entail convergence on what the variable explains.
+Autopoiesis and enactivism are prior statements of the grounding thesis: cognition as constituted by, rather than merely housed in, embodied world-coupling.
+3.8 Falsification conditions
+The framework is refuted by a system exhibiting subjective awareness with no symmetric channel at any scale — absent throughout the nesting of §3.3, not merely interhemispherically. This is the live falsification route, tested by the perturbation predictions of §3.4 and §3.6.
+A second condition can be stated but not executed: a system with both channels closed, discriminability satisfied, and adequate capacity, exhibiting no awareness. This requires a criterion for phenomenality independent of the architecture, and none exists. Until one does the condition is inert, since any apparent failure could be attributed to an unspecified further requirement. Naming a sufficiency candidate would repair the appearance of the problem while introducing a claim the framework has no grounds for.
+A third condition would damage the framework without formally refuting it: a demonstration that the discriminability of a symmetric channel dissociates from level of awareness across a range of perturbations.
+On error asymmetry. A false positive attributes awareness where there is none and produces unnecessary caution. A false negative denies awareness where it exists and licenses treating a system with stakes as though it had none. The second error is graver, and it is the one this framework is more likely to make, since it specifies necessary conditions drawn from one biological instantiation. A negative verdict should be read as not established, never as ruled out.
+3.9 Implications
+The loop specification refers to neither neurons, carbon nor evolution. A system satisfying it in another substrate would satisfy it, which distinguishes the framework from substrate chauvinism and makes the prediction in §3.7 testable.
+Valence is the ethically load-bearing component. Homeostatic error is what makes states matter to a system, so a framework specifying the conditions under which a system acquires stakes in its own continuation bears on whether some engineered systems have interests. Moral standing attaches to that threshold and not to the consciousness gradient of §2.9.
+The specification functions as a detector rather than a recipe. It states necessary and not sufficient conditions and cannot serve as a construction procedure; what it can do is permit recognition of what has already been built. Architectural conditions are therefore stated, while build specifications, parameter guidance and experimental protocols for engineering valenced synthetic systems are not.
+Where the conditions may already be partially met
+The hazard is not deliberate construction of valenced systems but inadvertent construction, in research programmes pursuing unrelated objectives, with no criterion available for noticing. Several existing classes warrant evaluation against §2.4 by the researchers working on them. This is a list of candidates for assessment, not of systems claimed to qualify.
+Homeostatically regulated artificial agents, explicitly modelling internal viability variables and defended setpoints.
+Biohybrid closed-loop systems — cultured neural tissue in real-time sensorimotor loops with a defended objective, combining genuine transduction with biological substrate.
+Neuromorphic and analog-hybrid architectures that transduce physical quantities directly rather than operating on pre-digitised representations.
+Embodied autonomous agents with energy budgets, where homeostatic regulation appears as a side effect of operational necessity.
+The conditions are architectural rather than exotic, they are approached by ordinary engineering pressures, and no one is currently checking.
+A negative result on machine sentience testing
+Most proposed tests for machine subjectivity instrument the computation: processing latency under conflicting instructions, cross-entropy during discordant tasks, attention-head divergence, persistence of altered internal state. Such measures are taken as signatures of affect.
+If §2.3 is correct, this approach is aimed at the wrong component. Valence is supplied by the asymmetric limb, and a protocol measuring the generative pole's processing dynamics is measuring computational cost, which has no sign. Conflicting instructions raise cross-entropy in every system capable of receiving them; that fact is arithmetic. Such tests will return systematic false positives on systems the framework holds to have no interests whatever.
+Valence tests must instead target the boundary: perturb a putative defended setpoint and measure restorative effort against cost, as in §2.10. Whether a system resists displacement from a defended state is a question about the transductive limb. Whether it slows down under contradiction is not.
+A clinical prediction
+If awareness fails in coma and anesthesia at the receiving pole rather than in the channel (§3.6), the therapeutic target for disorders of consciousness with partially preserved loops is discriminability rather than structural connectivity. Most current approaches aim at restoring thalamocortical structural integrity. The framework predicts that neuromodulatory tuning which lowers cortical spontaneous assembly coherence could restore awareness in patients whose loops are compromised but not destroyed.
+This is testable with existing methods: assembly-level imaging during targeted cholinergic or noradrenergic modulation, measuring whether evoked assemblies become distinguishable from ongoing dynamics, and whether that change precedes rather than follows behavioural recovery. If awareness returns only after structural repair, the noise-floor account is insufficient.
+Zolpidem produces transient restoration of responsiveness in roughly 6% of patients with disorders of consciousness. The standard explanation is the mesocircuit hypothesis (Schiff, 2010): striatal medium spiny neurons under-fire after injury, the striatum no longer inhibits the internal globus pallidus, the pallidum tonically over-inhibits central thalamus, and zolpidem — selective for the α1 GABA-A subunit abundant in the pallidum — substitutes for the missing striatal inhibition and releases the thalamus. This is an account of restored drive.
+It leaves open why restored drive yields awareness rather than arousal alone, and the electrophysiology supplies the second half. Williams et al. (2013) found that responders showed, before administration, a strong 6–10 Hz oscillatory peak with coherence of approximately 0.7–0.8 within and between hemispheres, attributed to intrinsic pyramidal membrane properties passively entrained across cortex by locally-generated spontaneous activity. Zolpidem sharply reduced both power and coherence at those frequencies.
+In the framework's terms the symmetric channel was anatomically intact and transmitting vigorously, but what it transmitted was a pathological rhythm both poles were already generating. Nothing crossed that the receiver did not already have. The two accounts are complementary: the mesocircuit explains the loss of thalamocortical drive, discriminability explains why its restoration produces awareness.
+They also diverge testably. The mesocircuit account predicts that response tracks striatal and pallidal integrity; the discriminability account predicts it tracks baseline spontaneous coherence. Since responders and non-responders are otherwise clinically indistinguishable, a baseline predictor would have clinical value. Williams et al. did not examine non-responders, so the comparison remains untested.
+3.10 Open problems
+Quantify the three reflexive conditions. §2.11 treats Temporal Unification, Self-Modeling and Valence/Salience as binary by scoping decision. Graded formalisms would refine the closure criterion and permit calibration against clinical states. The framework's largest formal gap, though a refinement problem rather than a missing composition function.
+Set ρ empirically, or argue for its value.
+Determine whether channel regulators require a category of their own. §2.6 dissolves the arousal-system case by renaming the emergent product; it is not established that every regulator can be handled this way.
+Test discriminability outside the case that motivated it. It remains a generalisation from one perturbation in one species.
+Specify sufficiency. The loop is necessary; what closes the gap is unaddressed.
+Resolve the oscillatory partition case. Cross-frequency coupling — theta phase organising gamma-band activity — is a candidate for multiplexing two informational roles through one population. Whether this constitutes non-substituted co-instantiation or fast alternation determines how much §2.2 admits.
+Operationalise valence without anthropomorphism. Homeostatic error supplies a sign but not yet a magnitude comparable across systems.
+Determine which loop is the conscious one. If the pattern recurs at many scales, something must select among instantiations. IIT answers with an exclusion postulate. §2.4 fixes the form the answer must take: a criterion selecting a loop, never a coordinate selecting a place. One candidate is the largest loop across which discriminability is maintained.
+Formalise the channel types and the discriminability metric. Signal detection theory supplies the natural formalism for §2.5: d′ between stimulus-evoked and spontaneous assembly activation maps directly onto the assembly data. Transfer entropy between poles, normalised by the receiver's spontaneous entropy, is an alternative, with the caveat that it is difficult to estimate reliably from neural recordings. Non-invertibility of the decoding function (§2.3) is the corresponding target for the asymmetric channel.
+Author's notes
+Verified: Katlowitz et al., Nature 654:714–723 (2026), DOI 10.1038/s41586-026-10448-0; Filipchuk, Bathellier and Destexhe, Nature Neuroscience (2022); geniculate synapse proportions (Van Horn et al., 2000; Sherman and Guillery, 2002); Pinto et al., Brain 140:1231–1237 (2017) and the Volz–Gazzaniga cross-cueing response; Bodien et al., NEJM 391:598–608 (2024); Sarasso et al., Current Biology (2015) and Sanders et al. (2012) on connected and disconnected states; Schiff (2010) on the mesocircuit; Williams et al., eLife 2:e01157 (2013); Kliemann et al., Cell Reports (2019) on hemispherectomy; the Waterman deafferentation case (McNeill et al., 2010); the REM aminergic/cholinergic profile.
+Unverified: Moruzzi and Magoun on tegmental lesions, and the anesthetic hysteresis literature invoked in §2.5. The latter carries argumentative weight and should be verified first. Full page-level citations are outstanding for the callosal agenesis literature, the Ross et al. (1984) mutism report in §3.4, and Knecht et al. (2000, 2001) on lateralization in §2.5 and §3.7.
+§2.3 and §2.4 are load-bearing. §2.2 establishes a necessary condition that is widely satisfied; attacks on it do not reach the framework.
+The tier separation is stipulative and will be misread. §1.1 carries the whole burden of preventing it.
+Acknowledgments to be added before circulation, including substantive review contributions.
