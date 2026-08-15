@@ -1,0 +1,242 @@
+# GDT — The Short Version
+
+**Grounded Duality Theory, stripped to the ideas and how they connect.**
+No citations, no clinical detail, no formalism. If you want the evidence, that's v2.0.0.
+
+---
+
+## What I'm claiming, in one paragraph
+
+To be a subject — for there to be something it is like to be you — a system has to be internally divided, and the division has to terminate somewhere outside itself. Two peers talking to each other isn't enough, however rich the conversation. Something has to touch the world in a way that isn't a conversation. *Duality* is the first half. *Grounded* is the second. Almost everything below is working out what those two words require.
+
+---
+
+## 1. Four things any system does with information
+
+- **Observation** — taking in raw signal
+- **Structuring** — turning signal into something coherent
+- **Memory** — making that coherence persist
+- **Communication** — sending it somewhere
+
+Call them the pillars. They aren't modules; they only work together. Structuring without Memory builds nothing that accumulates. Memory without Structuring stores noise. Observation without either is just transduction.
+
+**So measure the connections, not only the corners.** Four numbers can't say *how tightly Memory and Structuring are joined*, and that joining turns out to be where most of the interesting stuff lives.
+
+**Memory in particular isn't a thing a component owns.** It lives in the synapse, and a synapse belongs to neither neuron on either side of it. Profile one neuron and its Memory reads as zero. Memory is a relationship, not a possession.
+
+**None of this is consciousness yet.** A system can do all four beautifully and there be nothing it is like to be it. That's not a hedge, it's the point of stopping here.
+
+---
+
+## 2. Point the pillars at yourself and the consciousness conditions fall out
+
+People usually list conditions for subjectivity — temporal unification, self-modeling, valence — as if they were fresh primitives. They aren't. They're the four pillars aimed inward.
+
+| Pillar, outward | Same pillar, inward |
+|---|---|
+| Observation | data about your own states |
+| Structuring | a model of yourself |
+| Memory | your own history bound into continuity |
+| value assignment | weighting over your own states — *valence* |
+
+Nothing added. Same machinery, turned around.
+
+---
+
+## 3. To model yourself, you have to be two things at once
+
+A self-model is never a perfect copy of what it models — you're wrong about your own motives all the time. So the model and the thing modelled have to be *different things*, held at the same time.
+
+Which rules out the obvious cheap version: one system alternating between running and modelling. While you're the model, the process isn't running, so there's nothing being modelled. While you're the process, no representation is held. The pair never exists. The problem isn't lag, it's that one thing displaces the other.
+
+> **The representing state and the represented process have to be co-instantiated in substrate that isn't substituting one for the other.**
+
+That's a **partition**. Two roles, both live, neither replacing the other. And two roles that have to be related need a channel between them, so Communication shows up on its own rather than being assumed.
+
+This is a low bar and it's meant to be. A recurrent net with a delay line clears it. What it *does* exclude is a pipeline — a single neuron, for instance, where signal goes dendrite to soma to axon, changing format each step and never coming back as a representation. Each stage holds the *output* of the last, not a picture of it. That's not a partition.
+
+---
+
+## 4. Two kinds of channel, and they buy completely different things
+
+Partitions differ by what crosses them.
+
+**Symmetric channel** — same format both ways. Either side can start. The two sides are running comparable operations on different input, so either could stand as a representation of the other. Left and right hemisphere is the clean case.
+
+**Asymmetric channel** — different format each way. One side turns world into signal, the other turns signal into effect on the world. You can't swap the ends. Body and brain is the clean case.
+
+The test is whether you could run the mapping backwards. Cortical activity crossing between hemispheres could in principle be decoded back. A spike train can't tell you the light that caused it.
+
+**What each one gives you:**
+
+| Symmetric supplies | Asymmetric supplies |
+|---|---|
+| a representation of you, in your own currency, that you didn't produce | a **boundary** — where the format changes is where inside meets outside |
+| narrative binding — two streams can be unified only if they were separate first | **constraint** — finite input limits what you can be. Without it the generative side free-runs: coherent inside, unmoored outside |
+| | **valence** — deviation from a defended setpoint is natively good or bad *for you*. Peer traffic has no setpoint in it |
+
+**That last row carries most of the ethical weight in the whole framework.** Valence comes in through the asymmetric limb or not at all.
+
+A partition is cheap. A partition with a transductive limb closing a homeostatic loop is not.
+
+---
+
+## 5. The loop
+
+> **You need at least one symmetric channel and at least one asymmetric channel, closed into a single loop.**
+
+Symmetric alone: integration with nothing at stake. Peers talking, no edge, no consequences.
+Asymmetric alone: a reflex arc. Transduction with nothing binding one moment to the next.
+Both: a unified narrative that's a narrative *of* something.
+
+**Closed isn't the same as present.** Each channel has its own condition:
+
+- **Symmetric closes** only if what crosses stands out at the receiving end from that side's own background chatter. A signal below the receiver's noise floor is functionally absent no matter how intact the wiring.
+- **Asymmetric closes** only if the input actually narrows what the system can be. A limb delivering signal that doesn't constrain anything is present and not closed.
+
+**There's no place where it all comes together.** There can't be — any node holding the finished whole would be a node from which the partition is invisible, and the partition is the requirement. Put a theatre anywhere and you need an audience for it, and then an audience for that. What binds isn't a location, it's the closure. A standing wave doesn't have a position on the string.
+
+---
+
+## 6. Three tiers, and they do different jobs
+
+| Tier | Pillars aimed | What it gives you |
+|---|---|---|
+| **Capacity** | outward | **resolution** — the ability to see detail |
+| **Awareness** | reflexively | **presence** — the ability to occupy a moment |
+| **Identity** | across time | **direction** — the ability to link moments into a trajectory |
+
+They stack. Awareness needs capacity to turn inward on. Identity needs awareness to supply the self-model.
+
+Awareness is threshold-like — you're over the line or you aren't. Consciousness, the three sustained together, is graded.
+
+**Moral standing attaches at the awareness tier, not the top.** What makes states matter to a system is having stakes at all, not integrating them richly. A system with modest capacity and a closed loop has interests. A magnificently capable system with no asymmetric limb doesn't.
+
+Without the third tier you get something fully present to now with no self, because it has no *then* and no *next*.
+
+---
+
+## 7. Identity is built out of other people
+
+This is the piece I had missing for a long time.
+
+Identity is memory and structuring, weighted by value, "referred to a self-model." Fine — but where does the self-model get its *content*?
+
+Not from introspection. You can't work out from the inside which of your states are peculiar to you and which are just what any system like you does. That needs comparison with something running comparable process on different input. For a human, that's other humans. Nothing else in the environment qualifies.
+
+**But contrast isn't enough on its own.** It gives you the variable and the invariant. It doesn't tell you the invariants are shared *because the other one is the same kind of thing as you*. You could run the whole comparison and conclude other people are very regular weather.
+
+**What closes that is modelling their valence — and there's a structural reason it has to be modelled rather than received.** Valence comes from the asymmetric limb, and peer traffic carries no setpoint. So sameness of *stakes* is the one thing about another person the channel cannot transmit. You have to reconstruct it by running your own machinery over their situation.
+
+That's empathy, and in this framework it isn't decoration on social cognition. It's the workaround for a channel limitation the architecture already predicted.
+
+**Two ways this tier fails, and they're different failures:**
+
+- **Fracture** — more than one narrative synthesis running on one closed loop, with no shared referent. One subject, several identities. Predicts that dissociative conditions are integration disorders, not multiplied subjects.
+- **Misattribution** — the synthesis keeps running but the ownership tag is missing. Your own content arrives feeling like it came from elsewhere. That's a discriminability problem, not a fracture.
+
+Don't collapse them. Different components, different tiers of the same architecture.
+
+---
+
+## 8. Constraining and generative structures
+
+A tool that runs through everything above.
+
+Any emergence needs two things: a **Constraining Structure** that sets which states are *possible*, and a **Generative Structure** that picks which one is *occupied*. CS alone is frozen. GS alone is unmoored.
+
+These are **roles, not identities.** The same component can be CS for one product and GS for another, so you have to **name what's emerging before you assign roles** — otherwise every counterexample gets dissolved by quietly picking whichever framing makes it come out right.
+
+Rough prior: the slower-varying thing is usually CS. Body relative to brain. Physics relative to biology.
+
+**A second question is worth asking alongside:** does the component *add content*, or only subtract? Something that can only gate, veto, or attenuate is a different kind of thing from something that can assert. And a component with positive authority can manufacture the very conditions that justify its own operation, with nothing internal catching it — because what it manufactures is perfectly well-formed.
+
+That gives a clean line: **a regulator that only gates can't be the thing being gated.** Which is why the arousal system in the brain isn't where consciousness lives, however reliably knocking it out abolishes awareness.
+
+---
+
+## 9. Grounded duality vs facilitated duality
+
+The newest piece, and the one I'd press hardest on.
+
+Some constructed systems really do satisfy the architecture. A corporation has transducers of its own — accounting, audit, instrumentation. It has a partition: the accounting represents operations while operations runs. It defends a boundary, resists acquisition, sheds parts under scarcity to protect the core. And it can register error no individual member registers, which is the thing that separates a real system from a description of one.
+
+So I can't wave it away. But it isn't the same kind of thing as a body.
+
+> **Grounded** — the limb terminates in a boundary the system didn't choose and can't revise. Its transducers are inherited.
+>
+> **Facilitated** — the limb terminates in transducers the system *designed* and can redesign. Its grounding is **borrowed** from the grounded systems that built it.
+
+It's the knock-off version. It functions. It gets the job done. It is not a replacement, and the reason is that it lacks something the original never had to acquire.
+
+**The consequences:**
+
+- Corporate constraint is real and *on loan*. Every corporate transducer traces back to a person with a body who can't decide to stop being hungry. Cut that chain and the loop opens.
+- **Goodhart's law falls out as a prediction.** A constraining structure the generative side can rewrite is a constraint in name only, so organizations drift toward measuring what they can hit rather than what constrains them. Not a quirk of management — architecture.
+- A firm under hard external constraint it *didn't write* is more closed than an unconstrained one. Which is the Preface again: the division has to terminate outside the dividing system.
+- **Stakes require grounded closure.** Facilitated structures have borrowed stakes — the stakes of the people constituting them, aggregated and refracted. That's why harm through a corporation is real harm without the corporation having interests of its own.
+- Nations sit between the poles. Territory and population can't be redesigned; most of what a state measures itself against can be.
+
+**A related distinction that matters:** you can *extend* a setpoint — come to defend a child, a project, a community — and the loop stays closed. You can't *revise* one — decide to stop registering hunger. Extension adds what you defend. Revision replaces it, and a setpoint you can replace isn't constraining you.
+
+---
+
+## 10. What it looks like in a body
+
+Two dualities, at different scales, supplying different halves.
+
+- **Lateral** — the hemispheres, joined across the midline. Symmetric. Supplies self-modeling material and narrative binding.
+- **Vertical** — central and peripheral, joined by afferent and efferent paths. Asymmetric. Supplies boundary, constraint, valence.
+
+*Duality* is the lateral limb. *Grounded* is the vertical one.
+
+**And the pattern nests.** It recurs between hemispheres, between cortex and thalamus, between cortex and subcortical structures, and between centre and periphery. That nesting is why removing one instantiation doesn't remove awareness — half a brain, or a cut corpus callosum, leaves the pattern instantiated elsewhere.
+
+The nesting has a floor and a ceiling. Below: a single neuron is a pipeline, not a partition, so it's under the floor. Above: people talking to each other genuinely is a symmetric channel — but it lands at the *identity* tier, not the awareness tier. Other people supply the content of your self-model, not the architecture that lets you have one. An isolated system with both limbs closed is aware. It just has nothing to compare itself against.
+
+**Components can pull against the whole at every scale.** The gut runs semi-autonomous circuits. An alien hand pursues goals the speaking system disowns. States secede. That's a general property of nesting, not something that separates institutions from bodies.
+
+---
+
+## 11. What it buys you
+
+- **Behavioural silence tells you nothing.** Behaviour is efferent output, and the loop doesn't require an intact output path. A quarter of unresponsive brain-injured patients turn out to be following instructions covertly. The framework predicts this rather than being embarrassed by it.
+- **Three different ways awareness fails, distinguishable.** Noise floor floored at the source. Noise floor floored by drugs. Loop destroyed. Same outward silence, three different broken parts.
+- **The clean anesthesia split.** Some agents abolish awareness; ketamine leaves it running while cutting it off from the world. One variable, opposite outcomes — which is what forced the sharper version of the grounding claim: it's the *interoceptive* limb that's load-bearing, not the senses.
+- **Most machine sentience tests are aimed at the wrong component.** Latency under conflict, cross-entropy, attention divergence — all measuring the generative side's processing cost, which has no sign. Contradiction raises processing cost in *anything* that can receive contradiction. That's arithmetic, not feeling. Test the boundary instead: perturb a defended setpoint and measure restorative effort against cost. Then ask whether the setpoint was one the system could have rewritten.
+- **A reordered watch list for engineered systems.** The question isn't whether something has sensors. It's whether its constraint was **inherited or authored**. Which moves biohybrid systems — cultured tissue with metabolic needs nobody chose — to the top, and moves simulated homeostasis with designer-set variables toward the bottom, however faithful the simulation.
+- **Stakes and standing are different questions.** Whether a system has stakes is structural and this framework answers it. What rights follow is not settled by any structural fact, and the two will get collapsed if I don't keep saying so.
+
+---
+
+## 12. What would kill it
+
+**The live one:** a system with subjective awareness and no symmetric channel *anywhere* in the nesting. Not just no corpus callosum — none at any scale.
+
+**A second I can state but not run:** both channels closed, capacity adequate, and no awareness. That needs a way to detect phenomenality independent of the architecture, and nobody has one. Until then it's inert, because any apparent failure could be blamed on some further condition I forgot.
+
+**One that would wound without killing:** show that channel discriminability comes apart from level of awareness across a range of perturbations.
+
+**And one aimed at §9 specifically.** The grounded/facilitated distinction arrived in response to a case that broke an earlier claim, which is exactly the shape of a rescue. It survives only if it does work elsewhere — deriving Goodhart, predicting institutional decay from self-written constraint, restructuring the engineered-systems list. If it turns out to do nothing outside the corporation case, it's a save and it goes.
+
+---
+
+## 13. Still open
+
+The honest list is long. The ones that would change the shape of the thing:
+
+- Three conditions (temporal unification, self-modeling, valence) are treated as on/off by scoping decision. They all admit of degree and nobody has graded them.
+- Constraint efficacy is stated and not measured. I know what the asymmetric limb has to do; I can't yet put a number on whether it's doing it.
+- Discriminability is measured against a background the channel may have shaped over time — so a channel can capture its own baseline and then look like it's clearing it.
+- Does the identity tier have an error signal of its own? Right now nothing lets a life story be *wrong* in a way the system registers, which is what fracture and misattribution seem to need. First question to settle: whether it just reduces to anticipated homeostatic error, in which case it isn't a second signal at all.
+- Sufficiency. Everything here is necessary conditions. What closes the gap is unaddressed.
+
+---
+
+## The whole thing in one breath
+
+Split a system in two so it can represent itself. Give one of the crossings a format change so it touches something outside. Make sure both crossings actually carry — not just exist. That gets you a subject. Add other subjects to compare against and you get a self. Let the system write its own constraints and you get something that looks like all of the above and isn't.
+
+---
+
+*Scope note, and I mean it: everything here is compressed. Where the short version and v2.0.0 disagree, v2.0.0 governs — I've cut hedges that were doing real work, and a couple of the claims above rest on evidence I haven't finished checking.*
