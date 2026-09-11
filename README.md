@@ -1,1 +1,1 @@
-outline of architectural requirements for intelligence, cognitive capacity, awareness, identity, and consciousness. 
+outline of perception, experience, self-modeling, intelligence, cognitive capacity, awareness, identity, and consciousness. 
